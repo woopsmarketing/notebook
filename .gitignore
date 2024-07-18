@@ -1,0 +1,28 @@
+# 가상환경 폴더를 제외
+venv/
+# tdata 폴더를 제외
+tdata/
+# 운영 체제 별로 제외할 파일들
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+ENV/
+venv/
+ENV.bak/
+venv.bak/
+
+# 기타 IDE/편집기 설정 파일들
+.vscode/
+.idea/
