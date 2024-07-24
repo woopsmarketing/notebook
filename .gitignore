@@ -1,3 +1,5 @@
+# https://github.com/woopsmarketing/notebook.git
+
 # 가상환경 폴더를 제외
 venv/
 # tdata 폴더를 제외

@@ -5,11 +5,15 @@ import re
 from telethon.sync import TelegramClient
 from telethon.errors.rpcerrorlist import UserAlreadyParticipantError, FloodWaitError
 from telethon.errors import RPCError
+import socks
 
 # API 크레덴셜을 환경 변수에서 가져오기
 api_id = '21262045'
 api_hash = '81d86e68a9ac20bed07aceed72d94065'
-session_name = 'session1'
+session_name = 'mysession1'
+
+
+# proxy = (socks.SOCKS5, 'brd.superproxy.io', 22225, True, 'brd-customer-hl_62a3bae9-zone-seattle', 'y1szgxcybgz1')
 
 client = None
 
